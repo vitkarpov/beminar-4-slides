@@ -1,0 +1,26 @@
+safe: true
+permalink: /:title.html
+exclude: [ assets ]
+markdown: kramdown
+
+default_theme: yandex
+default_width: 792
+default_lang: ru
+default_body_class: list
+
+kramdown:
+  enable_coderay: false
+
+presentation:
+    title: "Вебинар по БЭМ: шаблонизатор BEMHTML"
+    service: BEM
+    nda: false
+
+author:
+    name: Виктор Карпов
+    position: Разработчик интерфейсов
+    company:
+        name: Яндекс
+        url:  http://yandex.ru/
+
+progress: true
