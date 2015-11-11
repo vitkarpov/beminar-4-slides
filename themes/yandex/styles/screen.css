@@ -680,12 +680,11 @@ body .slide:first-of-type h2
 .slide > div > ul > li:lang(ru):before
 {
     margin-left: 21px;
-
-    content: '\0';
-
+    content: '';
+    display: inline-block;
     border-left: 5px solid rgb(254,195,0);
-
-    line-height: 25px;
+    vertical-align: sub;
+    height: 1em;
 }
 
 .slide ul ul > li:lang(ru):before
