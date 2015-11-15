@@ -689,12 +689,13 @@ body .slide:first-of-type h2
 
 .slide ul ul > li:lang(ru):before
 {
+    content: '';
     position: relative;
     left: -4px;
-
-    content: '〉 ';
-
-    font-weight: normal;
+    display: inline-block;
+    border-left: 5px solid rgb(254,195,0);
+    vertical-align: sub;
+    height: 1em;
 }
 
 .slide > div > ul > li
